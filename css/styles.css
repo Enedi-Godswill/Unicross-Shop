@@ -8,9 +8,13 @@ html{
     text-rendering:optimizeLegibility;
     scroll-behavior:smooth;
 }
-body.active{
+body{
     background:#000;
     color:#fff;
+}
+body.active{
+    background:#fff;
+    color:#000;
     transition:.3s ease-in;
 }
 ul{
@@ -96,13 +100,13 @@ header{
 }
 
 /* Light button */
-.dark-icon{
-    display:none;
-}
-.light-btn.active .sun-icon{
+.sun-icon{
     display:none;
 }
 .light-btn.active .dark-icon{
+    display:none;
+}
+.light-btn.active .sun-icon{
     display:block;
 }
 
