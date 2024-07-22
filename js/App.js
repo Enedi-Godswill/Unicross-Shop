@@ -1,3 +1,13 @@
+// Light button
+const lightBtn = document.querySelector(".light-btn");
+const bodyEl = document.body;
+
+function changeBg(){
+    lightBtn.classList.toggle("active");
+    bodyEl.classList.toggle("active");
+}
+lightBtn.addEventListener("click", changeBg);
+
 // Menu tab
 const menuEl = document.querySelector(".menu");
 const menuBtn = document.querySelector(".menu-btn");
