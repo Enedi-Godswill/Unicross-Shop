@@ -27,3 +27,10 @@ function showInput(){
 }
 searchBtn.addEventListener("click", showInput);
 
+// Account tab
+const accountEl = document.querySelector(".account");
+function showAccount(){
+    accountEl.classList.toggle("active");
+}
+accountEl.addEventListener("click", showAccount);
+
