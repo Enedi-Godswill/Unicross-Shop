@@ -19,7 +19,9 @@ const createNav = () => {
                         <img class="search-img" src="./icons/search.svg" alt="">
                         <input class="input-tab" type="text" placeholder="Search, products, brands and categories">
                     </div>
-                    <button>search</button>
+                    <button>
+                        <a href="./search.html">Search</a>
+                    </button>
                 </div>
                 <div class="menu">
                     <button class="btn account">
@@ -34,7 +36,7 @@ const createNav = () => {
                     </button>
                     <button class="btn cart">
                         <img src="./icons/shopping_cart.svg" alt="">
-                        <p>Cart</p>
+                        <a href="./product.html">Product</a>
                     </button>
                 </div>
                 <button class="menu-btn">

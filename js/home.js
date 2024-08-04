@@ -9,7 +9,7 @@ productContainers.forEach((item, i) => {
         item.scrollLeft += 300;
     })
     BackBtn[i].addEventListener("click", () => {
-        item.scrollLeft += 300;
+        item.scrollLeft -= 300;
     })
 })
 
