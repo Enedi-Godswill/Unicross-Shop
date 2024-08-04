@@ -78,3 +78,9 @@ footer{
     color:#fff;
     background:rgba(0,0,0,0.2);
 }
+
+@media screen and (max-width:960px){
+    .footer-content{
+        display:block;
+    }
+}
